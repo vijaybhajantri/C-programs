@@ -10,7 +10,7 @@ main()
       printf("Factorial of %d = %d",n,fact);
     else
     {
-      for(i=n; i>n; i--)
+      for(i=n; i>=0; i--)
       {
           fact= fact*i;
       }
